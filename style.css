@@ -22,6 +22,11 @@ p {
   color: #8b8b8b;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .container {
   margin: 60px auto;
   text-align: center;
@@ -63,11 +68,15 @@ p {
 }
 
 .hero__button {
-  padding: 10px 30px;
   border-radius: 20px;
   color: #fff;
   margin: auto;
   font-size: 14px;
+}
+
+.hero__button a {
+  display: block;
+  padding: 10px 30px;
 }
 
 .btn--adventure {
@@ -75,9 +84,17 @@ p {
   /* max-width: 195px; */
 }
 
+.btn--adventure:hover {
+  background-color: #2d5bbe;
+}
+
 .btn--relax {
   background-color: #8b8b8b;
   /* max-width: 220px; */
+}
+
+.btn--relax:hover {
+  background-color: #686767;
 }
 
 /* SERVICES SECTIONS */
